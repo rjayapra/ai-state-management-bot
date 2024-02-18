@@ -45,14 +45,15 @@ create the container within the database, as the bot will do this for you and en
 - Clone the repository
 
     ```bash
-    git clone https://github.com/rjayapra/bot-state-management.git
+    git clone https://github.com/rjayapra/ai-state-management-bot
     ```
 
 - Run the bot from a terminal or from Visual Studio:
 
-  A) From a terminal, navigate to `bot-state-management`
+  A) From a terminal, navigate to `state-management-bot`
 
   ```bash
+  #configure appsettings.json with the storage details
   # run the bot
   dotnet run
   ```
@@ -61,8 +62,9 @@ create the container within the database, as the bot will do this for you and en
 
   - Launch Visual Studio
   - File -> Open -> Project/Solution
-  - Navigate to `bot-state-management` folder
-  - Select `StateMangementBot.csproj` file
+  - Navigate to `state-management-bot` folder
+  - configure appsettings.json with the storage details
+  - Select `state-mangement-bot.csproj` file
   - Press `F5` to run the project
 
 ## Testing the bot using Bot Framework Emulator
